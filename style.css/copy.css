@@ -1,0 +1,100 @@
+@media (min-width: 375px) {
+  .block-header-wr {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    height: 1090px;
+    background-image: url("../background-waves/bg_wave-header.svg");
+    background-repeat: no-repeat;
+    background-position: 94% top;
+    background-size: cover;
+  }
+  .d-h-nav-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 329px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .main-logo-link {
+    color: #ffffff;
+  }
+  .b-main-nav-items,
+  .b-main-nav-contakt-items {
+    display: flex;
+    list-style: none;
+    font-style: none;
+    text-align: center;
+  }
+  .b-main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.295743);
+    /*rgba(255, 255, 255, 0.295743)*/
+    border-radius: 24px;
+  }
+  .b-main-nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+  .b-main-nav-items {
+    display: flex;
+    list-style: none;
+    font-style: none;
+    text-align: center;
+  }
+  .b-main-nav-item {
+    color: #ffffff;
+  }
+  .b-user-nav {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 16px;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.295743);
+    /*rgba(255, 255, 255, 0.295743)*/
+    border-radius: 24px;
+  }
+  .b-user-nav-contact {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .b-main-nav-contakt-items {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .b-main-nav-contakt-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    width: 100%;
+    height: 100%;
+  }
+}
